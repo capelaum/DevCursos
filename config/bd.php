@@ -6,6 +6,7 @@ return [
   'bd' => 'treinaweb',
   'user' => 'root',
   'password' => '',
+  'persistent' => true,
 
   'error-mode' => \PDO::ERRMODE_EXCEPTION,
 ];

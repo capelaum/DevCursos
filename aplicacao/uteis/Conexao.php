@@ -7,6 +7,7 @@ class Conexao extends \PDO
   public function __construct(array $dados) 
   {
     $options = [
+      \PDO::ATTR_PERSISTENT => $dados['persistent'],
       \PDO::ATTR_ERRMODE => $dados['error-mode']
     ];
 
