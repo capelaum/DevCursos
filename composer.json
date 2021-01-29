@@ -1,0 +1,19 @@
+{
+    "name": "capelaum/php-tw-projeto-final",
+    "description": "Projeto Final de PHP B\u0000sico da Treinaweb",
+    "type": "project",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Capelaum",
+            "email": "thecapellett@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "aplicacao/" 
+        }
+    }
+}
